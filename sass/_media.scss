@@ -1,0 +1,612 @@
+
+@media screen and (max-width: 1400px ){
+	.sf{
+		padding: 45px 80px 50px;
+	}
+	.slider2_poz{
+		top: 8%;
+	}
+	.slider1 .img img{
+		max-width: 125%;
+		min-height: auto;
+	}
+
+}
+
+
+@media screen and (max-width: 1180px ){
+	.row{
+		width: 920px;
+	}
+	.slider1 h2{
+		width: 66%;
+		font-size: 55px;
+	}
+	.slider2_poz{
+		right: 5%;
+		width: 200px;
+	}
+	.example .slider_ex{
+		margin-left: 60px;
+	}
+	.example img{
+		width: 65%;
+		height: 510px;
+		top: auto;
+		bottom: 42px;
+	}
+	.example .slick-arrow{
+		right: 59%;
+		top: 45%;
+	}
+	.example .slide{
+		padding-top: 180px;
+	}
+	header span{
+		display: block;
+		clear: both;
+		text-align: right;
+	}
+	header .right{
+		padding-top: 7px;
+	}
+	.types_services{
+		padding: 70px 0 90px;
+	}
+	.example{
+		margin-bottom: 70px;
+	}
+	.procedure,
+	.pay{
+		padding: 70px 0;
+	}
+	.form form img{
+		height: 100%;
+		top: 0;
+		right: 0;
+	}
+	.form form:after{
+		display: none;
+	}
+	.form form{
+		padding: 50px;
+	}
+	.form form h3 br{
+		content: ' ';
+		display: inline;
+	}
+	.form{
+		padding-bottom: 100px;
+	}
+	body{
+		background: url('../img/cons2.jpg') center bottom no-repeat;
+	}
+}
+@media screen and (max-width: 950px ){/*768*/
+	.row{
+		width: 740px;
+	}
+	.slider2_poz{
+		width: 100%;
+		bottom: 0;
+		right: 0;
+		height: auto;
+		top: auto;
+	}
+	.slider1 .img img{
+		max-width: 165%;
+	}
+	.slider1 h2{
+		width: 100%;
+		font-size: 48px;
+	}
+	.slider1 p{
+		padding: 15px 0 30px;
+	}
+	.h2 {
+		text-align: center;
+		background: none;
+		padding-left: 0;
+		background: url('../img/tit_b.png') center top 60px no-repeat;
+		span{
+			float: none;
+			clear: both;
+			text-align: center;
+			margin-top: 5px;
+			display: block;
+			width: 100%;
+			max-width: 100%;
+			padding-top: 30px;
+		}
+	}
+	.types_services ul li{
+		padding: 30px;
+	}
+	.example h2{
+		width: 100%;
+		background-position: center bottom;
+		padding-bottom: 30px;
+		margin-bottom: 0;
+		position: static;
+		br{
+			content: ' ';
+			display: inline;
+		}
+
+	}
+	.example img{
+		height: auto;
+	}
+	.example .slick-arrow{
+		top: 0;
+	}
+	.example .slider_ex{
+		height: auto;
+		margin-top: 70px;
+	}
+	.example .slick-arrow{
+		right: 54.5%;
+	}
+	.example .slide{
+		padding: 70px 30px 50px;
+		margin-top: 5px;
+		margin-right: 0;
+		height: 350px;
+	}
+	.example img{
+		top: 0;
+		right: 0;
+		display: block;
+		margin: 0 auto;
+		width: 45%;
+		height: auto;
+	}
+	.example .bott{
+		right: 30px;
+		bottom: 30px;
+	}
+	.example .slick-dots{
+		width: 100%;
+		right: 0;
+		bottom: 20px;
+	}
+	.procedure ul{
+		overflow: hidden;
+		display: block;
+		li{
+			float: left;
+			width: 48%;
+			margin: 0 1% 12px;
+			height: 380px;
+		}
+	}
+	.pay h2{
+		width: 100%;
+		position: static;
+		br{
+			content: '';
+			display: inline;
+		}
+	}
+	.pay ul{
+		padding: 0;
+		background: none;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.coll a{
+		font-size: 60px;
+	}
+	.coll h2{
+		padding-bottom: 28px;
+	}
+	.form form img{
+		display: none;
+	}
+	.form form h3{
+		text-align: center;
+	}
+	.form form{
+		margin: 0 auto;
+		width: 460px;
+	}
+	.form form .left{
+		width: 100%;
+	}
+	.form form .btn{
+		width: 100%;
+	}
+	.coll{
+		padding-bottom: 70px;
+	}
+	.sf{
+		padding: 35px 40px;
+		width: 480px;
+		margin-left: -240px;
+
+		.btn{
+			margin: 30px auto 0;
+		}
+	}
+	.sf .inp{
+		height: 35px;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 750px ) {/*480*/
+ 	/*контент 460*/
+ 	.row{
+ 		width: 460px;
+ 	}
+ 	header{
+ 		text-align: center;
+
+ 		img{
+ 			float: none;
+ 		}
+ 		span{
+ 			text-align: center;
+ 		}
+ 	}
+ 	header .right{
+ 		text-align: center;
+ 		width: 400px;
+ 		margin: 0 auto;
+ 		float: none;	
+ 	}
+ 	header a{
+ 		float: left;
+ 		margin-left: 0;
+ 	}
+ 	header .btn_coll{
+ 		margin-left: 0;
+ 	}
+ 	.slider1 h2{
+ 		font-size: 40px;
+ 		line-height: 1.1;
+ 	}
+ 	.slider1{
+ 		text-align: center;
+ 	}
+ 	.slider1 .btn{
+ 		margin: 0 auto;
+ 	}
+ 	.slider1 p{
+ 		font-size: 20px;
+ 		padding: 10px 0 15px;
+ 	}
+ 	.types_services ul{
+ 		display: block;
+ 		overflow: hidden;
+ 	}
+ 	.types_services ul li{
+ 		width: 50%;
+ 		float: left;
+
+ 		&:nth-child(4){
+			border-left: none;
+			border-bottom: none;
+			border-right: 1px solid #e3e3e3;
+ 		}
+ 		&:nth-child(2){
+			border-right: 1px solid #e3e3e3;
+ 		}
+ 	}
+ 	.types_services ul li img{
+ 		bottom: 30px;
+ 		right: 30px;
+ 	}
+ 	.example .title{
+ 		position: static;
+ 		transform: rotate(0deg);
+ 		text-align: center;
+ 		padding-top: 10px;
+ 		width: 100%;
+ 	}
+ 	.example img{
+ 		position: static;
+ 		margin: 0 auto;
+ 		width: 60%;
+ 		padding: 15px 0;
+ 	}
+ 	.example .slide{
+ 		height: auto;
+ 		padding-top: 25px;
+ 	}
+ 	.example .slider_ex{
+ 		margin-left: 0;
+ 	}
+ 	.example .bott{
+ 		max-width: 300px;
+ 		text-align: center;
+ 		left: 30px;
+ 	}
+ 	.example h3, .example p, .example .bott{
+ 		max-width: 100%;
+ 		text-align: center;
+ 	}
+ 	.example .slick-arrow{
+ 		width: 50px;
+ 		height: 50px;
+ 		left: 0;
+ 		margin-left: 0;
+ 		top: 50%;
+ 		margin-top: 0;
+ 	}
+	.example .slick-next{
+		margin-right: 0;
+		right: 0;
+		left: auto;
+	}
+	.procedure h2 span{
+		font-size: 36px;
+		padding: 0 80px;
+		background-position: left top 17px, right top 17px;
+	}
+	.procedure ul li{
+		font-size: 24px;
+		height: 330px;
+
+		b{
+			font-size: 180px;
+		}
+	}
+	.pay ul li b{
+		width: 165px;
+	}
+	.pay ul li span{
+		margin-right: 15px;
+	}
+	.pay ul li p{
+		width: 200px;
+		font-size: 16px;
+
+		br{
+			content: ' ';
+			display: inline;
+		}
+	}
+	.coll a {
+	    font-size: 40px;
+	}
+	.coll h2{
+		font-size: 40px;
+		line-height: 1;
+	}
+	.form form h3{
+		line-height: 1;
+	}
+	.form{
+		padding-bottom: 70px;
+	}
+	footer{
+		text-align: center;
+
+		.pol{
+			display: inline-block;
+			float: none;
+		}
+	}
+	footer .right{
+		width: 300px;
+		float: none;
+		margin: 10px auto 0;
+	}
+	.slider1 .btn{
+		height: 50px;
+		line-height: 49px;
+	}
+	.slider2_poz .slider2 span{
+		top: 10px;
+		left: 10px;
+	}
+	.sf{
+		width: 300px;
+		padding: 17px 25px;
+		margin-left: -150px;
+		h2{
+			margin-bottom: 10px;
+			font-size: 28px;
+			line-height: 1;
+		}
+		.btn{
+	    	height: 40px;
+	    	line-height: 39px;
+	    	font-size: 13.5px;
+	    	width: 100%;
+	    }
+	}
+	.sf1{
+		top: 5%;
+	}
+	.sf .close{
+		top: 5px;
+		right: 5px;
+	}
+	.sf .inp{
+		height: 24px;
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 550px ) {
+    /*390*/
+ 	.slider1 .img img {
+	    max-width: 185%;
+	}
+ 	
+}
+@media screen and (max-width: 470px ) {
+    .row{
+    	width: 300px;
+    }
+    .form form{
+    	width: 300px;
+    }
+    header .right{
+    	width: 300px;
+    }
+    header .btn_coll, header a{
+    	float: none;
+    	display: inline-block;
+    	margin-top: 5px;
+    }
+    header span{
+    	font-size: 14px;
+    }
+    .slider1 h2{
+    	font-size: 28px;
+    }
+    .btn{
+    	height: 45px;
+    	line-height: 44px;
+    	font-size: 14px;
+    	width: 100%;
+    }
+	.slider2_poz .slider2 span{
+		font-size: 14px;
+	}
+	.slider1 p{
+		font-size: 16px;
+	}
+	.types_services{
+		padding: 50px 0;
+	}
+	.h2{
+		font-size: 36px;
+		background-position: center top 50px;
+
+		span{
+			font-size: 16px;
+			line-height: 1.3;
+			margin-top: 10px;
+		}
+	}
+	.types_services ul li{
+		width: 100%;
+		float: none;
+		height: auto;
+		overflow: hidden;
+		padding-bottom: 75px;
+
+		img{
+			right: 15px;
+			bottom: 15px;
+		}
+	}
+	.types_services ul li p{
+		padding-bottom: 30px;
+	}
+	.types_services ul li:nth-child(1),
+	.types_services ul li:nth-child(5){
+		border-right: 1px solid #e3e3e3;
+		border-bottom: none;
+	}
+	.types_services ul li:nth-child(4){
+		border-left: 1px solid #e3e3e3;
+	}
+	.example .slider_ex{
+		margin-top: 30px;
+	}
+	.example img{
+		width: 95%;
+		padding-bottom: 35px;
+	}
+	.example h3{
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.example .slick-dots{
+		bottom: -20px;
+	}
+	.example .slide{
+		padding-bottom: 25px;
+	}
+	.example .bott{
+		bottom: 10px;
+	}
+	.procedure ul li{
+		float: none;
+		width: 100%;
+	}
+	.pay h2{
+		background: none;
+		line-height: 1.1;
+	}
+	.pay ul li p{
+		width: 100%;
+		padding-top: 10px;
+	}
+	.pay ul li:not(:last-child):after{
+		display: none;
+	}
+	.coll a {
+	    font-size: 28px;
+	}
+	.coll p{
+		font-size: 14px;
+	}
+	.coll h2{
+		font-size: 36px;
+	}
+	.procedure, .pay{
+		padding: 50px 0;
+	}
+	.pay{
+		padding-bottom: 30px;
+	}
+	.form form h3{
+		font-size: 24px;
+	}
+	.form form{
+		padding: 20px;
+
+		.btn{
+			margin-top: 25px;
+		}
+	}
+	.inp{
+		height: 35px;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.form form .btn{
+		font-size: 12px;
+	}
+	body{
+		background: none;
+	}
+	.form, .coll, footer{
+		background: #F5F4F2;
+	}
+	.coll{
+		padding-top: 35px;
+	}
+	.h2{
+		margin-bottom: 35px;
+	}
+}
+@media screen and (max-width: 385px ) {
+    /*375*/
+ 	
+ 	
+}
+@media screen and (max-width: 370px ) {
+    /*360*/
+ 	.slider1 .img img {
+	    max-width: 215%;
+	}
+ 	.slider2_poz .slider2 span {
+	    font-size: 13px;
+	    top: 5px;
+	    left: 5px;
+	}
+}
+
+@media screen and (max-width: 350px ) {
+    /*320*/
+
+
+}
